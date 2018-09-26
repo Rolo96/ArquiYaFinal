@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module regEM(	
+module RegEM(	
 	input logic CLK,
 	input logic PCSrcECond,
 	input logic RegWriteECond,

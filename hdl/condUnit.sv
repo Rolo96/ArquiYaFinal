@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module condUnit(
+module CondUnit(
 input logic CLK, RESET, PCSrcEIn, RegWriteEIn, MemWriteEIn,BranchEIn,NoWrite,
 input logic [1:0] FlagWriteE,
 input logic [3:0] CondE,FlagsE,ALUFlags,
@@ -14,9 +14,9 @@ logic [3:0] Flags;
 logic CondExE;
 
 
-flopr #(2)flagreg1(CLK, RESET, FlagW[1],FlagsE[3:2], Flags[3:2]);
+Flopr #(2)flagreg1(CLK, RESET, FlagW[1],FlagsE[3:2], Flags[3:2]);
 
-flopr #(2)flagreg0(CLK, RESET, FlagW[0],FlagsE[1:0], Flags[1:0]);
+Flopr #(2)flagreg0(CLK, RESET, FlagW[0],FlagsE[1:0], Flags[1:0]);
 
 condcheck cc(CondE, Flags, CondExE);
 

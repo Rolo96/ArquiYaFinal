@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module regFD #(parameter SIZE = 32)(
+module RegFD #(parameter SIZE = 32)(
     input logic CLK, StallD,CLR,
     input logic [SIZE-1:0] InstrF,
     output logic [SIZE-1:0] InstrD
