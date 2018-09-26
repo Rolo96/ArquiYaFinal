@@ -8,7 +8,8 @@ module ControlUnit(
 	output logic PCS, RegW, MemW, //escribir pc/escribir en reg/ escribir en mem
 	output logic MemtoReg, ALUSrc, //memtoReg=senal para mux de wb / aluSrc: senal para mux de imm en exe
 	output logic [1:0] ImmSrc, RegSrc, //tipo de ext de signo para imm / senal para muxes de regs en deco
-	output logic [2:0]ALUControl);
+	output logic [2:0]ALUControl
+	);
 	
 	logic [9:0] controls;
 	logic Branch, ALUOp;
@@ -33,10 +34,11 @@ module ControlUnit(
 	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, Branch, ALUOp} = controls;
 	
 	always_comb
-		if (ALUOp) begin // which DP Instr?
-			case(Funct[4:1])
+		if (ALUOp) begin // si se usa la alu
+			case(Funct[4:1]) //cual instruccion de dataproccessing
 				4'b0000: ALUControl = 3'b000; // ADD
 				4'b0001: ALUControl = 3'b001; // SUB
+				4'b0010: ALUControl = 3'b010; // MUL
 				4'b1000: ALUControl = 3'b100; // AND
 				4'b1001: ALUControl = 3'b101; // ORR
 				default: ALUControl = 3'bx;
