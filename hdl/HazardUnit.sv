@@ -54,19 +54,19 @@ module HazardUnit(
 	always_comb
 		begin
 			if(~Reset) begin
-				PCWrPendingF    =   PCSrcD | PCSrcE | PCSrcM;
-            LDRStall        =   ((RA1D == WA3E)|(RA2D==WA3E))&MemToRegE;            
-				StallD_tmp      =   LDRStall;
-            StallF_tmp      =   LDRStall | PCWrPendingF;
-            FlushE_tmp      =   LDRStall | BranchTakenE;
-            FlushD_tmp      =   PCWrPendingF | PCSrcW | BranchTakenE;
+				PCWrPendingF = PCSrcD | PCSrcE | PCSrcM;
+            LDRStall = ((RA1D == WA3E)|(RA2D==WA3E))&MemToRegE;            
+				StallD_tmp = LDRStall;
+            StallF_tmp = LDRStall | PCWrPendingF;
+            FlushE_tmp = LDRStall | BranchTakenE;
+            FlushD_tmp = PCWrPendingF | PCSrcW | BranchTakenE;
 			end else begin
-				PCWrPendingF    =   1'b0;
-            LDRStall        =   1'b0;
-            StallD_tmp      =   1'b0;
-            StallF_tmp      =   1'b0;
-            FlushE_tmp      =   1'b0;
-            FlushD_tmp      =   1'b0;
+				PCWrPendingF = 1'b0;
+            LDRStall  = 1'b0;
+            StallD_tmp = 1'b0;
+            StallF_tmp = 1'b0;
+            FlushE_tmp = 1'b0;
+            FlushD_tmp = 1'b0;
 			end
 		end
     
