@@ -49,7 +49,7 @@ ALU Alu(
 );
 
 
-CondLogic CondLogic(
+CondUnit CondUnit(
 
 .CLK(CLK), 
 .RESET(RESET),
