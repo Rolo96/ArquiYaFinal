@@ -18,11 +18,6 @@ module HazardUnit(
 	assign StallF = StallF_tmp;
 	assign FlushD = FlushD_tmp;
 	assign FlushE = FlushE_tmp;
-
-	initial begin
-		Match = 4'b0;
-		PCWrPendingF = 1'b0;
-	end
 	
 	always_comb
 		begin
