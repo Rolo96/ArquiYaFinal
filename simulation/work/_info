@@ -1,0 +1,235 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Semestre VIII\Arqui 1\Proyectos\Proyecto1\Repositorio\Arqui1-Proyecto1\simulation
+vALU
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 Ig^QRJOIRMbDL@Fe76E9:[0
+Z3 Vin;PZ?j[<0n9nIClFSP<B1
+S1
+Z4 dD:\Semestre VIII\Arqui 1\Proyectos\Proyecto1\Repo\ArquiYaFinal\simulation
+Z5 w1537945500
+Z6 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv
+Z7 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv
+L0 3
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 o-work work -sv -O0
+Z10 n@a@l@u
+Z11 !s100 R=53?Ja1M_<6C^=NP=^B^1
+Z12 !s105 ALU_sv_unit
+Z13 !s108 1537945506.532000
+Z14 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vDataMemory
+R1
+Z16 !s100 VIz62VZno>eV@LCNRJc=T0
+Z17 IOi6G3gc[HPfaog2UMJ1lK2
+Z18 V=kAWD?KzLL3=F7MMXV0]V2
+Z19 !s105 DataMemory_sv_unit
+S1
+R4
+Z20 w1537944878
+Z21 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv
+Z22 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv
+L0 3
+R8
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv|
+R9
+Z24 n@data@memory
+Z25 !s108 1537945506.601000
+Z26 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vDecoder
+R1
+Z27 !s100 KORilM2o0Yd@<JBil544[2
+Z28 ILZj3dZgCS@19GCI_NPS3]3
+Z29 VcE8cQ<WSWji]z3Xm:0;:;2
+Z30 !s105 Decoder_sv_unit
+S1
+R4
+Z31 w1537937552
+Z32 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Decoder.sv
+Z33 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Decoder.sv
+L0 3
+R8
+r1
+31
+Z34 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Decoder.sv|
+R9
+Z35 n@decoder
+Z36 !s108 1537945506.667000
+Z37 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Decoder.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vExtend
+R1
+Z38 !s100 l=W4HH?2aFfL7ljS<mGT_0
+Z39 I3E]f[ZU;bh7FiEolVKgBT0
+Z40 V]lL=H3o1JeL>_9@k2=IY`0
+Z41 !s105 Extend_sv_unit
+S1
+R4
+Z42 w1537945302
+Z43 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv
+Z44 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv
+L0 2
+R8
+r1
+31
+Z45 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv|
+R9
+Z46 n@extend
+Z47 !s108 1537945506.734000
+Z48 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux2
+R1
+Z49 !s100 OzRfG<C6l=c`SAZmYb6?_2
+Z50 I03HOnZSoCFJ4=zH0m4fmF3
+Z51 VDEdj`dJ2kL0FY<a_JLF1l1
+Z52 !s105 Mux2_sv_unit
+S1
+R4
+Z53 w1537931952
+Z54 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux2.sv
+Z55 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux2.sv
+L0 3
+R8
+r1
+31
+Z56 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux2.sv|
+R9
+Z57 n@mux2
+Z58 !s108 1537945506.800000
+Z59 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux2.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux3
+R1
+Z60 !s100 3XF`IZ_UCooUZVibZUfPJ0
+Z61 IPSbCYd3XPdzHe]=:nT4H51
+Z62 VNF4:dK`iW72_I]lC7c]8T3
+Z63 !s105 Mux3_sv_unit
+S1
+R4
+Z64 w1537945007
+Z65 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux3.sv
+Z66 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux3.sv
+L0 3
+R8
+r1
+31
+Z67 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux3.sv|
+R9
+Z68 n@mux3
+Z69 !s108 1537945506.865000
+Z70 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Mux3.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegDE
+R1
+Z71 !s100 e7zG`41MA=1T@oKV6EBZZ3
+Z72 IHm>F]51GElD[bG4bR@l:P3
+Z73 VIF5Noa13UjAWM5<`=J0zQ3
+Z74 !s105 RegDE_sv_unit
+S1
+R4
+Z75 w1537945111
+Z76 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv
+Z77 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv
+L0 3
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv|
+R9
+Z79 n@reg@d@e
+Z80 !s108 1537945506.932000
+Z81 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegEM
+R1
+Z82 !s100 86Bg>I62lmR>d3B`Ni2=:3
+Z83 IhmWlD6GYbf[4@<f5@[XjS2
+Z84 VhJNC4KZ2;FZcQ4Hd4Ual=3
+Z85 !s105 RegEM_sv_unit
+S1
+R4
+Z86 w1537945357
+Z87 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv
+Z88 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv
+L0 3
+R8
+r1
+31
+Z89 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv|
+R9
+Z90 n@reg@e@m
+Z91 !s108 1537945507.000000
+Z92 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegMW
+R1
+Z93 !s100 ZWK@=4iCgU2HiP^D?eRKM0
+Z94 I46RiCd<meREJkFK4c1]Qd2
+Z95 V6[>Q;G[M5FREOA[8J^n]_1
+Z96 !s105 RegMW_sv_unit
+S1
+R4
+Z97 w1537945187
+Z98 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv
+Z99 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv
+L0 3
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv|
+R9
+Z101 n@reg@m@w
+!i10b 1
+!s85 0
+Z102 !s108 1537945507.071000
+Z103 !s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv|
+!s101 -O0
+vRegPC
+R1
+!i10b 1
+Z104 !s100 L0Tz@Tma]JHbT5QFLRVei0
+Z105 IV[8Red7>UcV[[S0U5eh<11
+Z106 VXF`Eml2;Q^NBBzO1DfFaQ0
+Z107 !s105 RegPC_sv_unit
+S1
+R4
+Z108 w1537935043
+Z109 8D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv
+Z110 FD:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1537945507.149000
+!s107 D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv|
+Z111 !s90 -reportprogress|300|-work|work|-sv|D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv|
+!s101 -O0
+R9
+Z112 n@reg@p@c
