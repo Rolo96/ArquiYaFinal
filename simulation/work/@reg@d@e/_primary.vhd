@@ -22,6 +22,8 @@ entity RegDE is
         FlagsD          : in     vl_logic_vector(3 downto 0);
         CondD           : in     vl_logic_vector(3 downto 0);
         WA3D            : in     vl_logic_vector(3 downto 0);
+        RA1D            : in     vl_logic_vector(3 downto 0);
+        RA2D            : in     vl_logic_vector(3 downto 0);
         RD1E            : out    vl_logic_vector;
         RD2E            : out    vl_logic_vector;
         ExtImmE         : out    vl_logic_vector;
@@ -36,7 +38,9 @@ entity RegDE is
         ALUControlE     : out    vl_logic_vector(2 downto 0);
         FlagsE          : out    vl_logic_vector(3 downto 0);
         CondE           : out    vl_logic_vector(3 downto 0);
-        WA3E            : out    vl_logic_vector(3 downto 0)
+        WA3E            : out    vl_logic_vector(3 downto 0);
+        RA1E            : out    vl_logic_vector(3 downto 0);
+        RA2E            : out    vl_logic_vector(3 downto 0)
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of BITS : constant is 1;

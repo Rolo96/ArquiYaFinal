@@ -12,13 +12,15 @@ module ALU #(parameter BITS = 32) (
 	
 	always_comb
 	begin 
+	cin='b0;
+	cout='b0;
+	negative=32'b0;
+	ALUResultTemp=32'b0;
 		case(ALUControlE)
 			3'b000 : //ADD
 			begin 
 				{cin, ALUResultTemp[BITS-2:0]} = SrcAE[BITS-2:0] + SrcBE[BITS-2:0]; 
 				{cout, ALUResultTemp[BITS-1]} = cin + SrcAE[BITS-1] + SrcBE[BITS-1];
-				ALUFlags[1]  = cout;
-				ALUFlags[0] = cin^cout; 
 			end
 			
 			3'b001 : //SUB
@@ -26,36 +28,26 @@ module ALU #(parameter BITS = 32) (
 				negative = SrcBE;
 				{cin, ALUResultTemp[BITS-2:0]} = SrcAE[BITS-2:0] + negative[BITS-2:0]; 
 				{cout, ALUResultTemp[BITS-1]} = cin + SrcAE[BITS-1] + negative[BITS-1];
-				ALUFlags[1]  = cout;	
-				ALUFlags[0] = cin^cout; 
 			end
 			
 			3'b010 :  //MUL 
 			begin 
-				ALUResultTemp <= SrcAE * SrcBE;
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = SrcAE * SrcBE;
 			end
 			
 			3'b100 :  //AND 
 			begin 
-				ALUResultTemp <= SrcAE & SrcBE;
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = SrcAE & SrcBE;
 			end
 			
 			3'b101 :  //OR 
 			begin 
-				ALUResultTemp <= SrcAE | SrcBE; 
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = SrcAE | SrcBE; 
 			end
 			
 			3'b011 : //Acum 
 			begin 
-				ALUResultTemp <= SrcAE + {24'b0, SrcBE[7:0]}; 
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = SrcAE + {24'b0, SrcBE[7:0]}; 
 			end
 			
 			3'b110 : //Prom
@@ -65,26 +57,22 @@ module ALU #(parameter BITS = 32) (
 				ALUResultTemp += (ALUResultTemp+8) >> 4;
 				ALUResultTemp += (ALUResultTemp+128) >> 8;
 				ALUResultTemp >>= 2;
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
 			end
 			
 			3'b111 : //NOT Assigned 
 			begin 
-				ALUResultTemp <= SrcAE | SrcBE; 
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = SrcAE | SrcBE; 
 			end
 			
 			default: 
 			begin 
-				ALUResultTemp <= 32'd0;
-				ALUFlags[1] = 0;
-				ALUFlags[0] = 0;
+				ALUResultTemp = 32'd0;
 			end
 		endcase
-		ALUFlags[3] = ALUResultTemp[BITS-1];	
-		ALUFlags[2] = (ALUResultTemp == 0);
 	end
 	assign ALUResultE = ALUResultTemp;
+	assign ALUFlags[1]  = cout;
+	assign ALUFlags[0] = cin^cout;
+	assign ALUFlags[3] = ALUResultE[BITS-1]; 	
+	assign ALUFlags[2] = (ALUResultE == 0);
 endmodule

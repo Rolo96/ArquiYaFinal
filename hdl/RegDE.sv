@@ -5,12 +5,12 @@ module RegDE #(parameter BITS = 32) (
 	input logic PCSrcD,RegWriteD,MemtoRegD,MemWriteD,BranchD,ALUSrcD,CLR,CLK,NoWriteD,
 	input logic [1:0] FlagWriteD,
 	input logic [2:0] ALUControlD,
-	input logic [3:0] FlagsD, CondD, WA3D,
+	input logic [3:0] FlagsD, CondD, WA3D, RA1D,RA2D,
 
 	output logic [BITS-1:0] RD1E, RD2E,ExtImmE,
 	output logic PCSrcE,RegWriteE,MemtoRegE,MemWriteE,BranchE,ALUSrcE,FlagWriteE,NoWriteE,
 	output logic [2:0] ALUControlE,
-	output logic [3:0] FlagsE, CondE, WA3E);
+	output logic [3:0] FlagsE, CondE, WA3E,RA1E,RA2E);
 	
 	always_ff@(posedge CLK)
 	begin 
@@ -31,6 +31,8 @@ module RegDE #(parameter BITS = 32) (
 			RD2E = 32'd0;
 			ExtImmE = 32'd0;
 			NoWriteE = 1'd0;
+			RA1E = 4'd0;
+			RA2E = 4'd0;
 		end
 		else
 		begin
@@ -49,6 +51,8 @@ module RegDE #(parameter BITS = 32) (
 			RD2E = RD2D;
 			ExtImmE = ExtImmD;
 			NoWriteE = 1'd0;
+			RA1E = RA1D;
+			RA2E = RA2D;
 		end
 	end
 endmodule

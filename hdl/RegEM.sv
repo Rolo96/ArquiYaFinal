@@ -1,22 +1,35 @@
 `timescale 1ns / 1ps
 
-module RegEM #(parameter BITS = 32) (
-	input logic [BITS-1:0] ALUResultE, WriteDataE, 
-	input logic PCSrcE,RegWriteE,MemtoRegE,MemWriteE,CLK,
+module RegEM(	
+	input logic CLK,
+	input logic PCSrcECond,
+	input logic RegWriteECond,
+	input logic MemtoRegECond,
+	input logic MemWriteECond,
+	input logic [31:0] ALUResultE,
+	input logic [31:0] WriteDataE,
 	input logic [3:0] WA3E,
 
-	output logic [BITS-1:0] ALUResultM, WriteDataM, 
-	output logic PCSrcM,RegWriteM,MemtoRegM,MemWriteM,
-	output logic [3:0] WA3M);
 	
-	always_ff@(posedge CLK)
-	begin
-		WA3M = WA3E;
-		PCSrcM = PCSrcE;
-		RegWriteM = RegWriteE;
-		MemtoRegM = MemtoRegE;
-		MemWriteM = MemWriteE;
-		ALUResultM = ALUResultE;
-		WriteDataM = WriteDataE;
-	end
+	output logic PCSrcM,
+	output logic RegWriteM,
+	output logic MemtoRegM,
+	output logic MemWriteM,
+	output logic [31:0] ALUResultM,
+	output logic [31:0] WriteDataM,
+	output logic [3:0] WA3M
+);	
+
+	always_ff @(posedge CLK)begin
+		
+			PCSrcM = PCSrcECond;
+			RegWriteM = RegWriteECond;
+			MemtoRegM = MemtoRegECond;
+			MemWriteM = MemWriteECond;
+			ALUResultM = ALUResultE;
+			WriteDataM = WriteDataE;
+			WA3M = WA3E;
+	
+	end	
+
 endmodule
