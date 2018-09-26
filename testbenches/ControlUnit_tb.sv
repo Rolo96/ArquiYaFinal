@@ -12,6 +12,7 @@ module ControlUnit_tb();
 	bit MemW;
 	bit MemtoReg;
 	bit ALUSrc;
+	bit NoWrite;
 	logic [1:0] ImmSrc;
 	logic [1:0] RegSrc;
 	logic [2:0] ALUControl;
@@ -28,7 +29,8 @@ module ControlUnit_tb();
 		.ALUSrc(ALUSrc),
 		.ImmSrc(ImmSrc),
 		.RegSrc(RegSrc),
-		.ALUControl(ALUControl)
+		.ALUControl(ALUControl),
+		.NoWrite(NoWrite)
 	);
 	
 	initial begin
