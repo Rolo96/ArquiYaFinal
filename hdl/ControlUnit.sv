@@ -50,8 +50,8 @@ module ControlUnit(
 		end else begin
 			ALUControl = 2'b000; // add para instruccion no-dataproccessing
 			FlagW = 2'b00; //no actualizar banderas
-		NoWrite = (Funct[4:1]==4'b0100);
-	end
+		end
 	// PC Logic
 	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;
+	assign NoWrite = (Funct[4:1]==4'b0100) & ALUOp;
 endmodule
