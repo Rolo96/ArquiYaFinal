@@ -8,7 +8,8 @@ module ControlUnit(
 	output logic PCS, RegW, MemW, //escribir pc/escribir en reg/ escribir en mem
 	output logic MemtoReg, ALUSrc, //memtoReg=senal para mux de wb / aluSrc: senal para mux de imm en exe
 	output logic [1:0] ImmSrc, RegSrc, //tipo de ext de signo para imm / senal para muxes de regs en deco
-	output logic [2:0]ALUControl
+	output logic [2:0]ALUControl,
+	output logic NoWrite //si la instruccion es un cmp
 	);
 	
 	logic [9:0] controls;
@@ -49,6 +50,7 @@ module ControlUnit(
 		end else begin
 			ALUControl = 2'b000; // add para instruccion no-dataproccessing
 			FlagW = 2'b00; //no actualizar banderas
+		NoWrite = (Funct[4:1]==4'b0100);
 	end
 	// PC Logic
 	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;
