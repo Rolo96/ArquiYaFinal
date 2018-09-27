@@ -42,6 +42,8 @@ module ControlUnit(
 				4'b0010: ALUControl = 3'b010; // MUL
 				4'b1000: ALUControl = 3'b100; // AND
 				4'b1001: ALUControl = 3'b101; // ORR
+				4'b1010: ALUControl = 3'b110; // PRM
+				4'b1011: ALUControl = 3'b011; // ACM
 				default: ALUControl = 3'bx;
 			endcase
 			// update flags if S bit is set (C & V only for arith)
