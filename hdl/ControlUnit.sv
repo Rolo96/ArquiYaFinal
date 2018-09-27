@@ -9,11 +9,12 @@ module ControlUnit(
 	output logic MemtoReg, ALUSrc, //memtoReg=senal para mux de wb / aluSrc: senal para mux de imm en exe
 	output logic [1:0] ImmSrc, RegSrc, //tipo de ext de signo para imm / senal para muxes de regs en deco
 	output logic [2:0]ALUControl,
-	output logic NoWrite //si la instruccion es un cmp
+	output logic NoWrite, //si la instruccion es un cmp
+	output logic BranchD //si el branch es tomado
 	);
 	
 	logic [9:0] controls;
-	logic Branch, ALUOp;
+	logic ALUOp;
 
 // Main Decoder
 	always_comb
@@ -32,7 +33,7 @@ module ControlUnit(
 			default: controls = 10'bx;
 		endcase
 		
-	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, Branch, ALUOp} = controls;
+	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg, RegW, MemW, BranchD, ALUOp} = controls;
 	
 	always_comb
 		if (ALUOp) begin // si se usa la alu
@@ -42,8 +43,6 @@ module ControlUnit(
 				4'b0010: ALUControl = 3'b010; // MUL
 				4'b1000: ALUControl = 3'b100; // AND
 				4'b1001: ALUControl = 3'b101; // ORR
-				4'b1010: ALUControl = 3'b110; // PRM
-				4'b1011: ALUControl = 3'b011; // ACM
 				default: ALUControl = 3'bx;
 			endcase
 			// update flags if S bit is set (C & V only for arith)
@@ -54,6 +53,6 @@ module ControlUnit(
 			FlagW = 2'b00; //no actualizar banderas
 		end
 	// PC Logic
-	assign PCS = ((Rd == 4'b1111) & RegW) | Branch;
+	assign PCS = ((Rd == 4'b1111) & RegW) | BranchD;
 	assign NoWrite = (Funct[4:1]==4'b0100) & ALUOp;
 endmodule
