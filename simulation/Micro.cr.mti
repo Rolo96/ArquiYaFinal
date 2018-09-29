@@ -12,6 +12,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Decoder
 
+} {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegEM.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegEM
+
+Top level modules:
+	RegEM
+
 } {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Extend.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Extend
@@ -19,12 +26,26 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Extend
 
+} {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/TopModule.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/TopModule.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TopModule
+
+Top level modules:
+	TopModule
+
 } {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegPC.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module RegPC
 
 Top level modules:
 	RegPC
+
+} {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/ALU.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
 
 } {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegMW.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -40,12 +61,26 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Mux2
 
+} {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/RegDE.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegDE
+
+Top level modules:
+	RegDE
+
 } {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Fetch.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Fetch.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Fetch
 
 Top level modules:
 	Fetch
+
+} {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Deco.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/Deco.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Deco
+
+Top level modules:
+	Deco
 
 } {} {}} {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv} {1 {vlog -work work -sv {D:/Semestre VIII/Arqui 1/Proyectos/Proyecto1/Repo/ArquiYaFinal/hdl/DataMemory.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
