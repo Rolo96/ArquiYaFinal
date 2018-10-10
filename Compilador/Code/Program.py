@@ -699,7 +699,7 @@ class Ui_imageLoad(QMainWindow):
         width = pixelMap.width()
         Size = height * width
 
-        if Size <= 76800:
+        if Size <= 310000:
             self.scene = QGraphicsScene()
             self.scene.addPixmap(pixelMap)
             self.graphicsView.setScene(self.scene)
@@ -718,7 +718,7 @@ class Ui_imageLoad(QMainWindow):
         image = Image.open(Filename, 'r')
         pixels = list(image.getdata())
 	
-        mif_name = 'Image.di'
+        mif_name = 'Image.bin'
 
         mif_file = open(mif_name, 'w+')
         address = 0
@@ -729,7 +729,7 @@ class Ui_imageLoad(QMainWindow):
                 b = format(pixels[address][2], '08b')
                 address+=1
                 mif_file.write('00000000'+r+g+b)
-                mif_file.write(';\n')
+                mif_file.write('\n')
 
         mif_file.close()
 
