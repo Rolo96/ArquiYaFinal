@@ -1,5 +1,5 @@
 Flow report for micro
-Tue Oct 09 21:49:57 2018
+Wed Oct 10 01:16:00 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 09 21:49:56 2018      ;
+; Flow Status                        ; Successful - Wed Oct 10 01:16:00 2018      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; micro                                      ;
 ; Top-level Entity Name              ; TopModule                                  ;
 ; Family                             ; Cyclone IV GX                              ;
 ; Device                             ; EP4CGX150DF31C7                            ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 2,447 / 149,760 ( 2 % )                    ;
-;     Total combinational functions  ; 2,301 / 149,760 ( 2 % )                    ;
-;     Dedicated logic registers      ; 915 / 149,760 ( < 1 % )                    ;
-; Total registers                    ; 915                                        ;
-; Total pins                         ; 32 / 508 ( 6 % )                           ;
+; Total logic elements               ; 2,514 / 149,760 ( 2 % )                    ;
+;     Total combinational functions  ; 2,345 / 149,760 ( 2 % )                    ;
+;     Dedicated logic registers      ; 912 / 149,760 ( < 1 % )                    ;
+; Total registers                    ; 912                                        ;
+; Total pins                         ; 33 / 508 ( 6 % )                           ;
 ; Total virtual pins                 ; 0                                          ;
-; Total memory bits                  ; 5,640,000 / 6,635,520 ( 85 % )             ;
+; Total memory bits                  ; 5,705,536 / 6,635,520 ( 86 % )             ;
 ; Embedded Multiplier 9-bit elements ; 6 / 720 ( < 1 % )                          ;
 ; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                              ;
 ; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                              ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/09/2018 21:45:28 ;
+; Start date & time ; 10/10/2018 01:12:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; micro               ;
 +-------------------+---------------------+
@@ -79,10 +79,10 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 264800831268323.153914312804420       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 264800831268323.153915554617032       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                     ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)       ; <None>        ; --          ; --             ;
-; IP_TOOL_NAME                        ; RAM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
@@ -107,12 +107,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:37     ; 1.0                     ; 4823 MB             ; 00:00:35                           ;
-; Fitter                    ; 00:02:54     ; 1.0                     ; 5223 MB             ; 00:02:39                           ;
-; Assembler                 ; 00:00:14     ; 1.0                     ; 4718 MB             ; 00:00:13                           ;
-; TimeQuest Timing Analyzer ; 00:00:13     ; 1.0                     ; 4813 MB             ; 00:00:12                           ;
-; EDA Netlist Writer        ; 00:00:13     ; 1.0                     ; 4709 MB             ; 00:00:11                           ;
-; Total                     ; 00:04:11     ; --                      ; --                  ; 00:03:50                           ;
+; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 4768 MB             ; 00:00:17                           ;
+; Fitter                    ; 00:02:34     ; 1.0                     ; 5273 MB             ; 00:02:32                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 4713 MB             ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:10     ; 1.0                     ; 4833 MB             ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:10     ; 1.0                     ; 4735 MB             ; 00:00:09                           ;
+; Total                     ; 00:03:22     ; --                      ; --                  ; 00:03:18                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

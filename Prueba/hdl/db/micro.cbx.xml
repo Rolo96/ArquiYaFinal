@@ -2,6 +2,6 @@
 <LOG_ROOT>
 	<PROJECT NAME="micro">
 		<CBX_INST_ENTRY INSTANCE_NAME="|TopModule|Execute:Execute|ALU:Alu|lpm_mult:Mult0" CBX_FILE_NAME="mult_1ht.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|TopModule|MemData:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_k1i1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopModule|MemData:mem|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9pi2.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

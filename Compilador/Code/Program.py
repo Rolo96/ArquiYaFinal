@@ -300,7 +300,7 @@ class Ui_Compiler(QtWidgets.QMainWindow):
     def binaryConvert(self):
 
         global Size
-        
+        Size = 0
         instuctionCodes = {'ADDEQ':'00000000001','ADDNE':'00010000001','ADDLT':'10110000001','ADDGT':'11000000001',
                            'ADDLE':'11010000001','ADDGE':'10100000001','ADDAL':'11100000001','ADD':'11100000001',
                            
@@ -624,7 +624,7 @@ class Ui_Compiler(QtWidgets.QMainWindow):
                     return error
                 contador+=1
                 instructionNumber += 1
-        #print(totalBinary)
+        print(variables)
         return totalBinary
 
 
@@ -718,19 +718,23 @@ class Ui_imageLoad(QMainWindow):
         image = Image.open(Filename, 'r')
         pixels = list(image.getdata())
 	
-        mif_name = 'Image.bin'
+        mif_name = 'Image.mif'
 
         mif_file = open(mif_name, 'w+')
+
+        mif_file.write('DEPTH={};\nWIDTH={};\nADDRESS_RADIX=DEC;\nDATA_RADIX=BIN;\nCONTENT\nBEGIN\n\n'.format(len(pixels), 32))
+    
         address = 0
         for i in range(image.size[1]):
             for j in range(image.size[0]):
                 r = format(pixels[address][0], '08b')
                 g = format(pixels[address][1], '08b')
                 b = format(pixels[address][2], '08b')
+                mif_file.write(str(i * image.size[0] + j) + ":      ")
                 address+=1
-                mif_file.write('00000000'+r+g+b)
-                mif_file.write('\n')
-
+                mif_file.write(' '+'00000000'+r+g+b)
+                mif_file.write(';\n')
+        mif_file.write("END;")
         mif_file.close()
 
         image.close()   

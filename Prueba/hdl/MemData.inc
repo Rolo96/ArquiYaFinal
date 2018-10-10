@@ -15,12 +15,16 @@
 
 FUNCTION MemData 
 (
-	address[17..0],
+	address_a[17..0],
+	address_b[17..0],
 	clock,
-	data[31..0],
-	wren
+	data_a[31..0],
+	data_b[31..0],
+	wren_a,
+	wren_b
 )
 
 RETURNS (
-	q[31..0]
+	q_a[31..0],
+	q_b[31..0]
 );

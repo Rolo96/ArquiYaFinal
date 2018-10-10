@@ -4,6 +4,7 @@ module TopModule #(parameter BITS = 32) (
 	input logic CLK,
 	input logic RESET,
 	input logic RESET2,
+	input logic RESET3,
 	
 	
 	output logic VGA_Hs,       
@@ -18,7 +19,7 @@ module TopModule #(parameter BITS = 32) (
 
 	
 	logic	Clk_out;
-	logic [18:0] Address_VGA;
+	logic [17:0] Address_VGA;
 	logic [31:0] Dest_VGA;
 
 	logic [BITS-1:0] ALUSResultE, ResultW;
@@ -55,6 +56,12 @@ module TopModule #(parameter BITS = 32) (
 
 	logic PCSrcEOut,RegWriteEOut,BranchEOut,MemWriteEOut;
 
+	/*DisplayController(
+	.inControl(MemToRegM),
+	.inMicro(AluOutM),
+	.inVGA(Address_VGA),
+	.out(Address)
+	);*/
 
 	frecuencyDivider div(
 		.i_clk(CLK),
@@ -63,7 +70,7 @@ module TopModule #(parameter BITS = 32) (
 
     vga640x480 display (
         .i_clk(Clk_out),
-        .i_rst(RESET),
+        .i_rst(RESET3),
         .o_hs(VGA_Hs), 
         .o_vs(VGA_Vs), 
         .o_blanking(VGA_Blank), 
@@ -77,11 +84,15 @@ module TopModule #(parameter BITS = 32) (
     );
 	
 	MemData mem(
-	.address(Address_VGA),
+	.address_a(Address_VGA),
 	.clock(CLK),
-	.data(WriteDataM),
-	.wren(RESET2),
-	.q(Dest_VGA),
+	.data_a(WriteDataM),
+	.wren_a(RESET2),
+	.q_a(Dest_VGA),
+	.address_b(AluOutM),
+	.data_b(WriteDataM),
+	.wren_b(MemWriteM),
+	.q_b(ReadDataM)
 	);
 	
 	Fetch Fetch(
@@ -154,13 +165,13 @@ module TopModule #(parameter BITS = 32) (
 		.s(MemtoRegW),
 		.y(ResultW));
 
-	DataMemory MemoriaDatos(
+	/*DataMemory MemoriaDatos(
 		.CLK(CLK),
 		.WE(MemWriteM),
 		.A(ALUOutM),
 		.WD(WriteDataM),
 		.RD(ReadDataM)
-	);
+	);*/
 
 	RegFD RegFD(
 		.CLK(CLK),

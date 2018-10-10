@@ -9,7 +9,7 @@
 	output logic [7:0] o_r,
 	output logic [7:0] o_g,
 	output logic [7:0] o_b,
-	output logic [18:0] A_VGA,
+	output logic [17:0] A_VGA,
 	input logic [31:0] RD_VGA
 );	 
 		
@@ -17,14 +17,15 @@
 	parameter	H_SYNC_FRONT =	640 + 96 + 48 + 16;
 	parameter	H_SYNC_CYC	 =	96;
 	parameter	H_SYNC_BACK	 =	96 + 48;
-	parameter	H_SYNC_ACT	 =	640 + 96 + 48;	
+	parameter	H_SYNC_ACT	 =	320 + 96 + 48;	
+	parameter	H_SYNC_ACT2	 =	640 + 96 + 48;	
 	parameter	H_SYNC_TOTAL =	800;
 
 	//	Virtical Parameter		( Line )
 	parameter	V_SYNC_FRONT =	2+ 33 + 480 + 10;
 	parameter	V_SYNC_CYC	 =	2;
 	parameter	V_SYNC_BACK	 =	2 + 33;
-	parameter	V_SYNC_ACT	 =	2+ 33 + 480;
+	parameter	V_SYNC_ACT	 =	2+ 33 + 240;
 	parameter	V_SYNC_TOTAL =	525; 
 	 
 	 
@@ -34,7 +35,9 @@
 	logic [7:0] r = 8'b0;
 	logic [7:0] g = 8'b0;
 	logic [7:0] b = 8'b0;
-	reg [18:0] counter = 19'b0;
+	reg [17:0] counter = 18'b0;
+	reg [17:0] counter2 = 18'b0;
+	reg [17:0] counter3 = 18'd76800;
 	
 	always_ff@(posedge i_clk)
 	begin
@@ -67,7 +70,9 @@
             if (v_count == V_SYNC_TOTAL)  // end of screen
 				begin
 					v_count <= 0;
-					counter = 19'b0;
+					counter = 18'b0;
+					counter2 = 18'b0;
+					counter3 = 18'd76800;
 				end
 				
 				if (h_count <= H_SYNC_CYC)
@@ -88,9 +93,21 @@
 					m_vs <= 1;
 				end
 				
-				if ((h_count >= H_SYNC_BACK & h_count<= H_SYNC_ACT) & (v_count>=V_SYNC_BACK & v_count<= V_SYNC_ACT) )
+				if ((h_count >= H_SYNC_BACK & h_count< H_SYNC_ACT) & (v_count>=V_SYNC_BACK & v_count< V_SYNC_ACT) )
 				begin
-					counter = counter + 1'b1;
+					counter2 = counter2 + 1'b1;
+					counter = counter2;
+					b <= RD_VGA[7:0];
+					g <= RD_VGA[15:8];
+					r <= RD_VGA[23:16];
+					//r <= 8'd255;
+					//g <= 8'd255;
+					//b <= 8'd255;
+				end
+				else if ((h_count >= H_SYNC_ACT & h_count< H_SYNC_ACT2) & (v_count>=V_SYNC_BACK & v_count< V_SYNC_ACT) )
+				begin
+					counter3 = counter3 + 1'b1;
+					counter = counter3;
 					b <= RD_VGA[7:0];
 					g <= RD_VGA[15:8];
 					r <= RD_VGA[23:16];
@@ -100,6 +117,8 @@
 				end
 				else 
 				begin 
+					counter2 = counter2;
+					counter3 = counter3;
 					counter = counter;
 					r <= 8'd0;
 					g <= 8'd0;
