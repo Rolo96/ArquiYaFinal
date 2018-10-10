@@ -1,0 +1,170 @@
+C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Fetch
+
+Top level modules:
+	Fetch
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Deco
+
+Top level modules:
+	Deco
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Flopr.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/flopr.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Flopr
+
+Top level modules:
+	Flopr
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/CondUnit.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/condUnit.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CondUnit
+-- Compiling module condcheck
+
+Top level modules:
+	CondUnit
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module decobench
+
+Top level modules:
+	decobench
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux3
+
+Top level modules:
+	Mux3
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Decoder
+
+Top level modules:
+	Decoder
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFD.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/regFD.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegFD
+
+Top level modules:
+	RegFD
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegEM
+
+Top level modules:
+	RegEM
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Extend
+
+Top level modules:
+	Extend
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TopModule
+
+Top level modules:
+	TopModule
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegPC
+
+Top level modules:
+	RegPC
+
+} {} {}} C:/Users/Bryan/Desktop/add.sv {1 {vlog -work work -sv {C:\Users\Bryan\Desktop\add.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegMW
+
+Top level modules:
+	RegMW
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Execute
+
+Top level modules:
+	Execute
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/InstructionMemory.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/instructionMemory.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv {1 {vlog -work work -sv C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegDE
+
+Top level modules:
+	RegDE
+
+} {} {}} C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Adder.sv {1 {vlog -work work -sv {C:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal\hdl\adder.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}}

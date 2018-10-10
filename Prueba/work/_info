@@ -1,0 +1,622 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Bryan\Documents\TEC\2018 II Semestre\Arqui I\Proyecto I\Proyecto_I_GIT\Arqui1-Proyecto1\simulation
+vadd
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 ILhUmFKh5K2cff<Y>:4kRf0
+Z3 V[jKSg9nHjVoKK]HQVd@N;3
+Z4 !s105 add_sv_unit
+S1
+Z5 dC:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal
+Z6 w1538368645
+Z7 8C:\Users\Bryan\Desktop\add.sv
+Z8 FC:\Users\Bryan\Desktop\add.sv
+L0 3
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|-sv|C:\Users\Bryan\Desktop\add.sv|
+Z11 o-work work -sv -O0
+!i10b 1
+Z12 !s100 GIDMMb`1D8DeoGO=M07Gc1
+!s85 0
+Z13 !s108 1538368663.476000
+Z14 !s107 C:\Users\Bryan\Desktop\add.sv|
+!s101 -O0
+vAdder
+R1
+Z15 ILVdNJ[B^eKdZ6mR0jk7Rj0
+Z16 V1oHJWNL_=Y0Oi4oXiI9<f3
+Z17 !s105 adder_sv_unit
+S1
+R5
+Z18 w1538026142
+Z19 8C:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal\hdl\adder.sv
+Z20 FC:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal\hdl\adder.sv
+L0 3
+R9
+r1
+31
+R11
+Z21 n@adder
+Z22 !s100 VWX=<^kgKP[VMQ_h_1]PT2
+Z23 !s108 1538368656.971000
+Z24 !s107 C:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal\hdl\adder.sv|
+Z25 !s90 -reportprogress|300|-work|work|-sv|C:\Users\Bryan\Desktop\MicroArqui\ArquiYaFinal\hdl\adder.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vALU
+R1
+Z26 !s100 4ZNZ@:6^<G5A^`IVLeUh01
+Z27 IhPBIlKO2CS33DJJ11RA103
+Z28 VaAGb:8ISHT7>=[9f0Y]:82
+Z29 !s105 ALU_sv_unit
+S1
+R5
+Z30 w1538366780
+Z31 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv
+Z32 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv
+L0 3
+R9
+r1
+31
+Z33 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv|
+R11
+Z34 n@a@l@u
+Z35 !s108 1538368657.329000
+Z36 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ALU.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+valu_tb
+R1
+Z37 IA4PW^lXNMMfRYZ`1gNacB1
+Z38 VL;=kgzZ7GJ2Reg7Z1GkmR2
+R4
+S1
+R5
+Z39 w1538027137
+Z40 8C:/Users/Bryan/Desktop/add.sv
+Z41 FC:/Users/Bryan/Desktop/add.sv
+L0 3
+R9
+r1
+31
+R11
+Z42 !s100 :AeMRI_f]O:]?Q8e1AAJl2
+Z43 !s108 1538027344.794000
+Z44 !s107 C:/Users/Bryan/Desktop/add.sv|
+Z45 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/add.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vcondcheck
+R1
+Z46 !s100 9HjBj^Bm040TQkX9;m<L92
+Z47 Ihbd9WWhXfYFf]RXAcbT7>1
+Z48 V84[aB7k9Ff791B5HZh`ZF0
+Z49 !s105 condUnit_sv_unit
+S1
+R5
+Z50 w1538088379
+Z51 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/condUnit.sv
+Z52 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/condUnit.sv
+L0 33
+R9
+r1
+31
+Z53 !s108 1538368657.619000
+Z54 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/condUnit.sv|
+Z55 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/condUnit.sv|
+R11
+!i10b 1
+!s85 0
+!s101 -O0
+vCondUnit
+R1
+Z56 !s100 emDmN7?dYL^_deA^If_cm3
+Z57 I[R1=^zD=>Q528cX@DVDNH2
+Z58 VoUX8daWH4JJ_Ch<3E0>ZH3
+R49
+S1
+R5
+R50
+R51
+R52
+L0 3
+R9
+r1
+31
+R53
+R54
+R55
+R11
+Z59 n@cond@unit
+!i10b 1
+!s85 0
+!s101 -O0
+vControlLED
+R1
+Z60 I9>=8DJ@74eR>UFlbSHCKn1
+Z61 V3L=ial5R9S<F:>gm=dJ6S1
+Z62 !s105 ControlLED_sv_unit
+S1
+R5
+Z63 w1538332613
+Z64 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlLED.sv
+Z65 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlLED.sv
+L0 2
+R9
+r1
+31
+Z66 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlLED.sv|
+R11
+Z67 n@control@l@e@d
+Z68 !s100 CMQlZ7I8JR3fK^YORGe0b3
+Z69 !s108 1538332620.885000
+Z70 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlLED.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vControlUnit
+R1
+Z71 !s100 Kzl;U1AHeVEl_:NS3DMb<0
+Z72 IdmFV2zEdH;W9F<VN><E3e0
+Z73 VCi5ng4;7;VDGk=Zo73bml0
+Z74 !s105 ControlUnit_sv_unit
+S1
+R5
+Z75 w1538366480
+Z76 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv
+Z77 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv
+L0 3
+R9
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv|
+R11
+Z79 n@control@unit
+Z80 !s108 1538368658.115000
+Z81 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/ControlUnit.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vDataMemory
+R1
+Z82 !s100 XYkY[b6GXjYIOJb@M<JH70
+Z83 I3RF`MOET]ZGJ3]][Lj5_I3
+Z84 V=kAWD?KzLL3=F7MMXV0]V2
+Z85 !s105 DataMemory_sv_unit
+S1
+R5
+Z86 w1538260915
+Z87 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv
+Z88 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv
+L0 3
+R9
+r1
+31
+Z89 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv|
+R11
+Z90 n@data@memory
+Z91 !s108 1538368658.406000
+Z92 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/DataMemory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vDeco
+R1
+Z93 !s100 M^3TfT3MH1I`IIn5:oC`G3
+Z94 IX4Za73khlzGSHPL52jG9U1
+Z95 VSnBeV9ZS_h;aAI^ohiRJB2
+Z96 !s105 Deco_sv_unit
+S1
+R5
+Z97 w1538288531
+Z98 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv
+Z99 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv
+L0 3
+R9
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv|
+R11
+Z101 n@deco
+Z102 !s108 1538368658.739000
+Z103 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Deco.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecobench
+R1
+!i10b 1
+Z104 !s100 @:SQb:^Jj@1fJZ_C^Q`D81
+Z105 IzGFZ11kX1l]VNcg?f3UhG2
+Z106 Vfm3L6h85G<IAOJ[OnbRVV3
+Z107 !s105 decobench_sv_unit
+S1
+R5
+Z108 w1538083059
+Z109 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv
+Z110 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1538368663.767000
+!s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv|
+Z111 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/decobench.sv|
+!s101 -O0
+R11
+vDecoder
+R1
+Z112 !s100 WM1`8><KHXoXddOdzVege0
+Z113 IFI::b@6=>IlLb637hnU8d0
+Z114 VcE8cQ<WSWji]z3Xm:0;:;2
+Z115 !s105 Decoder_sv_unit
+S1
+R5
+Z116 w1538277997
+Z117 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv
+Z118 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv
+L0 3
+R9
+r1
+31
+Z119 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv|
+R11
+Z120 n@decoder
+Z121 !s108 1538368659.048000
+Z122 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Decoder.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vExecute
+R1
+Z123 !s100 LfT1`Wj:O5LCchkMTMg911
+Z124 IKZOmmD_EN19JIO;bKgNdH0
+Z125 VG3KTMK1zQhW:TF41[WGDA3
+Z126 !s105 Execute_sv_unit
+S1
+R5
+Z127 w1538162931
+Z128 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv
+Z129 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv
+L0 3
+R9
+r1
+31
+Z130 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv|
+R11
+Z131 n@execute
+Z132 !s108 1538368659.252000
+Z133 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Execute.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vExtend
+R1
+Z134 !s100 ;aTUkeCDc3Ib_4KY0:l2i0
+Z135 IY161O1OW]9l1g`_Hbo1QV3
+Z136 V]lL=H3o1JeL>_9@k2=IY`0
+Z137 !s105 Extend_sv_unit
+S1
+R5
+Z138 w1538277966
+Z139 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv
+Z140 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv
+L0 2
+R9
+r1
+31
+Z141 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv|
+R11
+Z142 n@extend
+Z143 !s108 1538368659.608000
+Z144 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Extend.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vFetch
+R1
+Z145 !s100 YbUFioeDo0c_zTgZTj:d<3
+Z146 IRj=hlD_3;X1W<lUHgbFJY2
+Z147 V;W`ad1SAA5GaHTEl?jhd12
+Z148 !s105 Fetch_sv_unit
+S1
+R5
+Z149 w1538090035
+Z150 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv
+Z151 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv
+L0 3
+R9
+r1
+31
+Z152 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv|
+R11
+Z153 n@fetch
+Z154 !s108 1538368659.892000
+Z155 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Fetch.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vFlopr
+R1
+Z156 !s100 nKQUaX7<@IBelgm6;A1jF3
+Z157 IBj5R>P>`Li8CN>>Li>[h[1
+Z158 VhWA:?7^f^V`K<RaSD7?n=2
+Z159 !s105 flopr_sv_unit
+S1
+R5
+Z160 w1538012126
+Z161 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/flopr.sv
+Z162 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/flopr.sv
+L0 3
+R9
+r1
+31
+Z163 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/flopr.sv|
+R11
+Z164 n@flopr
+Z165 !s108 1538368660.115000
+Z166 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/flopr.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vHazardUnit
+R1
+Z167 !s100 CC=W1`k^c2B=Ddcoaf3zK0
+Z168 IER1_c^dz[ZOmnBnCkomVE3
+Z169 VGn5@QkLTM67lBW7nehZd63
+Z170 !s105 HazardUnit_sv_unit
+S1
+R5
+Z171 w1538288638
+Z172 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv
+Z173 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv
+L0 3
+R9
+r1
+31
+Z174 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv|
+R11
+Z175 n@hazard@unit
+Z176 !s108 1538368660.466000
+Z177 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/HazardUnit.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vInstructionMemory
+R1
+Z178 !s100 QWa3fhzG4:m`<fEI:7R<f1
+Z179 ImO1??A@XQk_nB1iLILNDJ0
+Z180 VcmbDK4a3hX06bHN_ZijFE1
+Z181 !s105 instructionMemory_sv_unit
+S1
+R5
+Z182 w1538366799
+Z183 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/instructionMemory.sv
+Z184 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/instructionMemory.sv
+L0 3
+R9
+r1
+31
+Z185 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/instructionMemory.sv|
+R11
+Z186 n@instruction@memory
+Z187 !s108 1538368660.745000
+Z188 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/instructionMemory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux2
+R1
+Z189 !s100 2H9oNiFZm>]GBhlBjJ@MC0
+Z190 IV=Jd>N<4;j;DAPR[CVm>21
+Z191 VDEdj`dJ2kL0FY<a_JLF1l1
+Z192 !s105 Mux2_sv_unit
+S1
+R5
+Z193 w1538026146
+Z194 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv
+Z195 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv
+L0 3
+R9
+r1
+31
+Z196 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv|
+R11
+Z197 n@mux2
+Z198 !s108 1538368661.016000
+Z199 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux2.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux3
+R1
+Z200 !s100 VJOkFlIh<WVLYJj498<cT0
+Z201 IC1^RMm`SJ;cT0R]ZELNl42
+Z202 VR45gGHb_?bMfWj`KN4Ukc3
+Z203 !s105 Mux3_sv_unit
+S1
+R5
+Z204 w1538082682
+Z205 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv
+Z206 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv
+L0 3
+R9
+r1
+31
+Z207 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv|
+R11
+Z208 n@mux3
+Z209 !s108 1538368661.372000
+Z210 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/Mux3.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegDE
+R1
+Z211 !s100 221JL;KF1_e03=JPeN8AL0
+Z212 IVm7UhIn`8=m4VfQFzeYTf1
+Z213 Vo=HEM601o1GHkL1WEQmB51
+Z214 !s105 RegDE_sv_unit
+S1
+R5
+Z215 w1538171048
+Z216 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv
+Z217 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv
+L0 3
+R9
+r1
+31
+Z218 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv|
+R11
+Z219 n@reg@d@e
+Z220 !s108 1538368661.729000
+Z221 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegDE.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegEM
+R1
+Z222 !s100 gd59@Vi`5<5P^C[4]b9ca3
+Z223 Igi:UJcCZUQE5SM3kh`Zez1
+Z224 VNnW_GMSUXDWVl5ng4GFhl3
+Z225 !s105 RegEM_sv_unit
+S1
+R5
+Z226 w1538171042
+Z227 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv
+Z228 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv
+L0 3
+R9
+r1
+31
+Z229 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv|
+R11
+Z230 n@reg@e@m
+Z231 !s108 1538368662.059000
+Z232 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegEM.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegFD
+R1
+Z233 !s100 @;Ta<Y>YTLJ3iCTG1D_dF1
+Z234 IGTFDN;M=hb@U2>JPQ;R]>0
+Z235 V8K;mXDWM9z=eP?R<9A?L11
+Z236 !s105 regFD_sv_unit
+S1
+R5
+Z237 w1538171037
+Z238 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/regFD.sv
+Z239 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/regFD.sv
+L0 3
+R9
+r1
+31
+Z240 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/regFD.sv|
+R11
+Z241 n@reg@f@d
+Z242 !s108 1538368662.340000
+Z243 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/regFD.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegFile
+R1
+Z244 !s100 IZl4?9`Fl>jcR3GTHg9:O1
+Z245 I:I>Yzb1:IJJ;I3_SQOR_n3
+Z246 V[U[S1;C7U4c^aUzSNi0g31
+Z247 !s105 RegFile_sv_unit
+S1
+R5
+Z248 w1538280755
+Z249 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv
+Z250 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv
+L0 3
+R9
+r1
+31
+Z251 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv|
+R11
+Z252 n@reg@file
+Z253 !s108 1538368662.580000
+Z254 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegFile.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegMW
+R1
+Z255 !s100 T910Q>li]YUo3_[lMW9SN2
+Z256 ImaNnQF=?X@hYXhAE@V[Zf3
+Z257 Vgbm>j:f[Yezh3nGPdBmbg0
+Z258 !s105 RegMW_sv_unit
+S1
+R5
+Z259 w1538171020
+Z260 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv
+Z261 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv
+L0 3
+R9
+r1
+31
+Z262 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv|
+R11
+Z263 n@reg@m@w
+Z264 !s108 1538368662.746000
+Z265 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegMW.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegPC
+R1
+Z266 !s100 IGPJ5MZQ_GgZDM;JXj>;N3
+Z267 IicdODaeNZeLO]MF5kl2H13
+Z268 VFVJ3hkXG`?D=330f;SP^E0
+Z269 !s105 RegPC_sv_unit
+S1
+R5
+Z270 w1538171014
+Z271 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv
+Z272 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv
+L0 3
+R9
+r1
+31
+Z273 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv|
+R11
+Z274 n@reg@p@c
+Z275 !s108 1538368663.085000
+Z276 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/RegPC.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vTopModule
+R1
+Z277 !s100 <U3hNC<Xo57:OnQfUKVAU3
+Z278 Ie2l_jIg7KBEAC^o^Bm]Ok3
+Z279 VAVoeX_gkaGHPNkFE0ehHC1
+Z280 !s105 TopModule_sv_unit
+S1
+R5
+Z281 w1538368620
+Z282 8C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv
+Z283 FC:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv
+L0 3
+R9
+r1
+31
+Z284 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv|
+R11
+Z285 n@top@module
+Z286 !s108 1538368663.281000
+Z287 !s107 C:/Users/Bryan/Desktop/MicroArqui/ArquiYaFinal/hdl/TopModule.sv|
+!i10b 1
+!s85 0
+!s101 -O0

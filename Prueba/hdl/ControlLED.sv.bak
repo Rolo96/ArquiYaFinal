@@ -1,0 +1,9 @@
+`timescale 1ns / 1ps
+module ControlLED (
+	input logic D1,  
+	output logic Y);
+
+	always_comb 
+		if(D1==1'bx) y = 1'b1;
+		else y=1'b0;
+endmodule
